@@ -5,7 +5,7 @@
 .navbar {
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: red;
     align-items: center;
 }
@@ -15,4 +15,5 @@
     list-style: none;
     justify-content:center;
     align-items: center;
+    
 }
