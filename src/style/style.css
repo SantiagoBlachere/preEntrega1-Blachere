@@ -8,6 +8,11 @@
     justify-content: space-around;
     background-color: red;
     align-items: center;
+    
+}
+.navbar a {
+    color: inherit;
+    text-decoration: none;
 }
 .linksNavbar {
     display: flex;
@@ -22,3 +27,65 @@
     display: flex;
     justify-content: space-around;
 }
+.genres {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    
+    gap: 15px;
+    padding: 20px
+    
+}
+
+.horror, .sc, .romance {
+    border-right: solid 1px black;
+    padding: 2px 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.horror {
+    border-left: solid 1px black;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-author {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .card-genre {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .card-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .card-link:hover {
+    background-color: #ddd;
+  }
