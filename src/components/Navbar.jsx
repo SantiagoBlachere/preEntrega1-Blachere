@@ -17,9 +17,9 @@ function Navbar() {
                 <div className="romance"><Link to="/genre/romance">Romance</Link></div>
             </div>
             <ul className="linksNavbar">
-                <li>Contacto</li>
+                <li>Contact</li>
                 <li>Instagram</li>
-                <li>Sobre nosotros</li>
+                <li>About</li>
                 
                 
             </ul>
