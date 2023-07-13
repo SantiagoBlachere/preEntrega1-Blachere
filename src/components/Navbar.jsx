@@ -9,7 +9,7 @@ function Navbar() {
     
     return (
         <div className="navbar">
-            <Link to="/"><h1>Librería Gotria</h1></Link>
+            <Link to="/"><h1>Gotria BookStore 🕮 </h1></Link>
             <img src="" alt="" />
             <div className="genres">
                 <div className="horror"><Link to="/genre/horror">Horror</Link></div>
