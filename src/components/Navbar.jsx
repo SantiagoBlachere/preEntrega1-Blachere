@@ -1,11 +1,11 @@
 import React from "react";
-import { ReactDOM } from "react";
+import  ReactDOM  from "react";
 import '../style/style.css'
 import CartWidget from "./CartWidget";
-import ItemListContainer from "./ItemListContainer";
+
 
 function Navbar() {
-    let greeting = "Hola! Bienvenido a la librería Gotria"
+    
     return (
         <div className="navbar">
             <h1>Librería Gotria</h1>
@@ -18,7 +18,7 @@ function Navbar() {
                 
             </ul>
             <CartWidget />
-            <ItemListContainer greeting={greeting} />
+            
         </div>
     )
 }
