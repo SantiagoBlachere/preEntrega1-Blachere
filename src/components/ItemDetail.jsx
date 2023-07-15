@@ -12,7 +12,7 @@ function ItemDetail() {
   }, [id]);
 
   if (!book) {
-    return <div>Loading...</div>; // Show a loading state while fetching the book details
+    return <div>Loading...</div>; 
   }
 
   return (
